@@ -11,7 +11,7 @@ def main():
     Segundo = 1
     Tercero = 0
     
-    if valor>2:
+    if valor>2 and valor<100:
         for n in range(2,valor+1):
             Tercero = Primero + Segundo
         
