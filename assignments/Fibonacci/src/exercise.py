@@ -22,7 +22,9 @@ def main():
             Primero = Segundo
             Segundo = Tercero
     elif valor<=2:
-        print('Por desgracia no se aclaro que era de TRES! en adelante')    
+        print('Por desgracia no se aclaro que era de TRES! en adelante')
+    elif valor>100:
+        print('Tampoco te pases')    
 
 
 if __name__=='__main__':
